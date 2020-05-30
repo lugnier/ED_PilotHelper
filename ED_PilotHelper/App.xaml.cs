@@ -12,6 +12,15 @@ namespace ED_PilotHelper
     /// Interaction logic for App.xaml
     /// </summary>
     public partial class App : Application
+ 
     {
+
+        public App()
+        {
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MjY1MTIxQDMxMzgyZTMxMmUzMGxoRnp0ejZVY3dteHUyTmFsbGNkNms1WEhQTXZNZXhQaDI4dVh1ci94aGM9");
+
+        }
+
+
     }
 }
