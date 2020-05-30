@@ -20,6 +20,7 @@ namespace ED_PilotHelper.Views
         public MainWindow()
         {
             InitializeComponent();
+
         }
     }
 }
