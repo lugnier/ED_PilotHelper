@@ -1,0 +1,30 @@
+﻿<Window x:Class="ED_PilotHelper.Views.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ED_PilotHelper.Views"
+                         xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+        <syncfusion:DockingManager x:Name="DockingManagerMain"
+                                   PersistState="False"
+                                   UseDocumentContainer="True"
+        >
+
+
+
+            <ContentControl syncfusion:DockingManager.Header="Infrastructure"
+                            syncfusion:DockingManager.SideInDockedMode="Left"
+            >
+            </ContentControl>
+
+            <ContentControl syncfusion:DockingManager.Header="Infrastructure"
+                            syncfusion:DockingManager.SideInDockedMode="Right">
+            </ContentControl>
+
+
+        <ContentControl syncfusion:DockingManager.Header="Landing Position" syncfusion:DockingManager.State="Document" >
+            </ContentControl>
+        </syncfusion:DockingManager>
+</Window>

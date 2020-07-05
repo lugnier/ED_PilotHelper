@@ -10,10 +10,60 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Back_64x64.png" />
+    <None Remove="Assets\button_orange_play.png" />
+    <None Remove="Assets\FuelScoop_193x193.png" />
+    <None Remove="Assets\FuelScoop_gray_193x193.png" />
+    <None Remove="Assets\FuelScoop_green_193x193.png" />
+    <None Remove="Assets\FuelScoop_transparent_193x193.png" />
+    <None Remove="Assets\nav_green_left.png" />
+    <None Remove="Assets\schema_civilian_industrial.png" />
+    <None Remove="Assets\schema_civillian.png" />
+    <None Remove="Assets\schema_commercial.png" />
+    <None Remove="Assets\schema_industrial_mining.png" />
+    <None Remove="Assets\schema_military.png" />
+    <None Remove="Assets\schema_scientific.png" />
+    <None Remove="Assets\Station_Coriolis.jpg" />
+    <None Remove="Assets\Station_Ocellus.jpg" />
+    <None Remove="Assets\Station_Orbis.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\schema_civillian.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.19" />
 	<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
 	<PackageReference Include="Syncfusion.Licensing" Version="18.1.0.54" />
 	<PackageReference Include="Syncfusion.Themes.Office365.WPF" Version="18.1.0.54" />
 	<PackageReference Include="Syncfusion.Tools.WPF" Version="18.1.0.54" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Back_64x64.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\button_orange_play.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\fuelscoop_193x193.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\FuelScoop_gray_193x193.png" />
+    <Resource Include="Assets\FuelScoop_green_193x193.png" />
+    <Resource Include="Assets\FuelScoop_transparent_193x193.png" />
+    <Resource Include="Assets\nav_green_left.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\schema_commercial.png" />
+    <Resource Include="Assets\schema_civilian_industrial.png" />
+    <Resource Include="Assets\schema_military.png" />
+    <Resource Include="Assets\schema_industrial_mining.png" />
+    <Resource Include="Assets\schema_scientific.png" />
+    <Resource Include="Assets\Station_Coriolis.jpg" />
+    <Resource Include="Assets\Station_Ocellus.jpg" />
+    <Resource Include="Assets\Station_Orbis.jpg" />
   </ItemGroup>
 
 </Project>
